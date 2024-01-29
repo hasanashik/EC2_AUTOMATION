@@ -27,19 +27,19 @@ This Terraform project automates the provisioning of EC2 instances. It provides 
 2. Initialize Terraform:
 
     ```bash
-    make tf_init
+    make tf_dev_init
     ```
 
 3. Plan the Terraform changes:
 
     ```bash
-    make tf_plan
+    make tf_dev_plan
     ```
 
 4. Apply the Terraform changes:
 
     ```bash
-    make tf_apply
+    make tf_dev_apply
     ```
 
 ## Contributing
