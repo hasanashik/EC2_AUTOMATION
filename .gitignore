@@ -1,0 +1,27 @@
+# Ignore Terraform binary files
+*.tfstate
+*.tfstate.backup
+*.tfplan
+
+# Ignore local .terraform directories
+**/.terraform/
+
+# Ignore .tfvars files that may contain sensitive information
+*.tfvars
+
+# Ignore override files as they are usually used to override default configuration settings
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore crash log files
+crash.log
+
+# Ignore .tf-remote.lock and terraform.log files
+.tf-remote.lock
+terraform.log
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
